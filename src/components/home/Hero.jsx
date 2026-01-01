@@ -149,18 +149,7 @@ const Hero = () => {
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    animate={{
-                        y: [0, 8, 0]
-                    }}
-                    transition={{
-                        opacity: { duration: 1 },
-                        y: {
-                            duration: 5,
-                            repeat: Infinity,
-                            ease: "easeInOut",
-                            times: [0, 0.5, 1]
-                        }
-                    }}
+                    transition={{ duration: 1 }}
                 >
                     <h2 className="text-teal-400 font-bold tracking-widest mb-4 uppercase text-sm md:text-base">
                         Event Management &bull; IT Solutions &bull; Marketing

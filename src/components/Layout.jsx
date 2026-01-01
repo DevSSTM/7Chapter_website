@@ -181,7 +181,7 @@ const Layout = ({ children }) => {
                 {isLoading && <Loader key="loader" onComplete={handleLoaderComplete} />}
             </AnimatePresence>
             <Navbar />
-            <main className="flex-grow pt-20">
+            <main className="flex-grow">
                 {children}
             </main>
             <WhatsAppButton />

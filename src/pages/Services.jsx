@@ -99,7 +99,7 @@ const Services = () => {
                 title="IT Solutions"
                 description="Empowering your business with cutting-edge technology. We build robust, scalable, and secure digital solutions that drive efficiency and growth."
                 icon={Monitor}
-                items={['Custom Software Development', 'Web & Mobile Apps', 'ERP Systems', 'IT Support & Maintenance', 'Cloud Solutions', 'Cybersecurity']}
+                items={['Custom Software Development', 'Web & Mobile Apps', 'ERP Systems', 'IT Support & Maintenance', 'Cloud Solutions']}
                 reversed={true}
                 brochureLink="#"
                 isProminent={true}

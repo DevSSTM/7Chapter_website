@@ -7,7 +7,7 @@ const ClientCarousel = () => {
         { name: 'Sumathi Holdings', url: '/logos/sumathi.png' },
         { name: 'Sumathi Energy', url: '/logos/sumathi energy.webp' },
         { name: 'Vertex', url: '/logos/logo-vertex-cropped.webp' },
-        { name: 'IWS Holdings', url: '/logos/IWS Holdings.jpg' },
+        { name: 'IWS Holdings', url: 'https://iwsholdings.com/wp-content/uploads/2015/08/iws-holdings.png' },
     ];
 
     return (

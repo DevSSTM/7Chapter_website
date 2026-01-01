@@ -98,7 +98,7 @@ const GalleryItem = ({ project }) => {
 const Gallery = () => {
     const [filter, setFilter] = useState('All');
 
-    const categories = ['All', 'Events'];
+    const categories = ['All', 'Events', 'Marketing'];
 
     const projects = [
         {
@@ -155,6 +155,19 @@ const Gallery = () => {
                 '/events/visakha/Visakha%20H%20-34.jpg',
                 '/events/visakha/Visakha%20H%20-45.jpg',
                 '/events/visakha/Visakha%20H%20-6.jpg'
+            ]
+        },
+        {
+            id: 5,
+            title: 'iPower Branding Project',
+            category: 'Marketing',
+            images: [
+                '/marketing/ipower/IMG-20260101-WA0054.jpg',
+                '/marketing/ipower/IMG-20260101-WA0055.jpg',
+                '/marketing/ipower/IMG-20260101-WA0056.jpg',
+                '/marketing/ipower/IMG-20260101-WA0057.jpg',
+                '/marketing/ipower/IMG-20260101-WA0059.jpg',
+                '/marketing/ipower/IMG-20260101-WA0062.jpg'
             ]
         }
     ];

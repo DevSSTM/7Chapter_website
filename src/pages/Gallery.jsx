@@ -142,6 +142,20 @@ const Gallery = () => {
                 '/events/evbex/FB_IMG_1767239750979.jpg',
                 '/events/evbex/FB_IMG_1767239767509.jpg'
             ]
+        },
+        {
+            id: 4,
+            title: 'Visakha Vidyalaya Hostel Day',
+            category: 'Events',
+            images: [
+                '/events/visakha/Visakha%20H%20-116.jpg',
+                '/events/visakha/Visakha%20H%20-22-2.jpg',
+                '/events/visakha/Visakha%20H%20-23-2.jpg',
+                '/events/visakha/Visakha%20H%20-33.jpg',
+                '/events/visakha/Visakha%20H%20-34.jpg',
+                '/events/visakha/Visakha%20H%20-45.jpg',
+                '/events/visakha/Visakha%20H%20-6.jpg'
+            ]
         }
     ];
 

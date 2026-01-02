@@ -116,7 +116,7 @@ const Gallery = () => {
         },
         {
             id: 2,
-            title: 'Calorie Counter Healthy Run',
+            title: 'The Festival of Health & Fitness 2025',
             category: 'Events',
             images: [
                 '/events/calorie/FB_IMG_1767240211175.jpg',
